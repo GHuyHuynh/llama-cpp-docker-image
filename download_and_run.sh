@@ -5,7 +5,7 @@ set -e  # Exit on any error
 echo "Starting Kimi K2 deployment..."
 
 # Create model directory
-MODEL_DIR="/tmp/model"
+MODEL_DIR="/mnt/models"
 mkdir -p $MODEL_DIR
 
 # Check if model exists
